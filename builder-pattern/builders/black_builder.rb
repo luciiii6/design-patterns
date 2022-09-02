@@ -9,12 +9,12 @@ class BlackBuilder
   end
 
   def create_legs
-    @table.legs = 'black legs'
+    @table.legs = BlackLegs.new
     pp 'Creating black legs'
   end
 
   def create_flat_surface
-    @table.flat_surface = 'black surface'
+    @table.flat_surface = BlackSurface.new
     pp 'Creating black surface'
   end
 end

@@ -9,12 +9,12 @@ class WhiteBuilder
   end
 
   def create_legs
-    @table.legs = 'white legs'
+    @table.legs = WhiteLegs.new
     pp 'Creating white legs'
   end
 
   def create_flat_surface
-    @table.flat_surface = 'white surface'
+    @table.flat_surface = WhiteSurface.new
     pp 'Creating white surface'
   end
 end
