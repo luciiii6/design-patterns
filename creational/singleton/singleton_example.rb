@@ -11,5 +11,6 @@ class SingletonExample
 
   def initialize
     # initialize object
+    @test = 42
   end
 end
