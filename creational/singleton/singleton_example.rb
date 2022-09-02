@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class SingletonExample
-
   class << self
     def instance
       @instance ||= new
