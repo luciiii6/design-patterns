@@ -12,7 +12,7 @@ in ruby like this:
 ```
 
 - I chose not to implement them and just create classes
-like they were supposed to have interfaces.
+like they were supposed to be restricted to implement all the methods.
 
 ## Creational
 
