@@ -1,4 +1,17 @@
 # Design patterns
+- Some people choose to implement interfaces
+in ruby like this:
+
+
+
+    class InterfaceModel
+      def something
+        raise NotImplementedError, "Implement this method in a child class"
+      end
+    end
+
+- I chose not to implement them and just create classes
+like they were supposed to have interfaces.
 
 ## Creational
 

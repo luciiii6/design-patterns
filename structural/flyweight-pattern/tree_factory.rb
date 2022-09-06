@@ -4,6 +4,7 @@ require './tree_type'
 
 class TreeFactory
   attr_reader :tree_types
+
   def initialize
     @tree_types = {}
   end
