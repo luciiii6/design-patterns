@@ -3,13 +3,14 @@
 in ruby like this:
 
 
-`code`
+```ruby
     class InterfaceModel
       def something
         raise NotImplementedError, "Implement this method in a child class"
       end
     end
-`code`
+```
+
 - I chose not to implement them and just create classes
 like they were supposed to have interfaces.
 
