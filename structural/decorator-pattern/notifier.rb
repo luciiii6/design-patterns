@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Notifier
   def send(message)
     send_email(message)

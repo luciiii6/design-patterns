@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 require './notifier'
 require './facebook_decorator'
@@ -22,4 +23,3 @@ app = Application.new
 app.notifier = stack
 
 app.do_smth
-
