@@ -30,7 +30,7 @@ like they were supposed to implement all the methods.
 - [x] Decorator        
 - [x] Facade           
 - [x] Flyweight        
-- [ ] Proxy            
+- [x] Proxy            
 
 ## Behavioral
 
