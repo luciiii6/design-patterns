@@ -34,7 +34,7 @@ like they were supposed to implement all the methods.
 
 ## Behavioral
 
-- [ ] Chain of Responsibility 
+- [x] Chain of Responsibility 
 - [ ] Command                 
 - [ ] Iterator                
 - [ ] Mediator                
